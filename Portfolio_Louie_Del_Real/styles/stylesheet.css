@@ -15,11 +15,12 @@ p{
   font-size: 1em;
   font-weight: normal;
   color: #4c4c4c; /*gray*/
-  text-align: left;
+
 }
 nav{
   color:#000; /*black*/
   font-weight: bold;
     }
 div{color:#000; /*black*/
-font-weight: bold;}
+font-weight: bold;
+}

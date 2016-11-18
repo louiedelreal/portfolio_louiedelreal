@@ -1,6 +1,5 @@
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
-/* Do not change this style */
 .rectangle {
   font-family: "Helvetica";
   font-size: 1em;
@@ -13,17 +12,36 @@
 }
 
 #kerning {
-  /* Use the letter-spacing property to change the kerning on the text to fill the div below
-
-  http://www.w3schools.com/cssref/pr_text_letter-spacing.asp
-  */
-letter-spacing: 6px;
+letter-spacing: 5px;
 }
 
 #leading {
-  /* Use the line-height property to change the leading on the text to fill the div below
-
-  http://www.w3schools.com/cssref/pr_dim_line-height.asp
-  */
 line-height: 275%;
+}
+
+/*** TEXT ALIGNMENT ASSIGNMENT STYLES ***/
+
+.align {
+  max-width: 80%;
+  margin: 1em auto;
+}
+
+#left_align {
+  text-align: left;
+  line-height: 180%;
+}
+
+#right_align {
+  text-align: right;
+  line-height: 200%;
+}
+
+#justify {
+  text-align: justify;
+  line-height: 200%;
+}
+
+#center {
+text-align: center;
+line-height: 150%;
 }
