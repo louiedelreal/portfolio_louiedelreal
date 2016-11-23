@@ -45,3 +45,44 @@ line-height: 275%;
 text-align: center;
 line-height: 150%;
 }
+
+/*** HIERARCHY ASSIGNMENT STYLES ***/
+
+section {
+  font-family: "Helvetica";
+  font-size: 1em;
+  background-color: white;
+  border: solid 1px black;
+  height: 560px;
+  width: 560px;
+  margin: 0 auto;
+}
+
+/* Do not change this style */
+section p {
+  font-size: 1.1em;
+  margin: 2em 4em;
+  max-width: 55%;
+}
+
+/* Change this style */
+/* #biggerText {
+
+} */
+
+/* Change this style */
+/* .indent {
+
+} */
+
+#title {
+  font-size: 2em;
+}
+
+#typ {
+  color: grey;
+}
+
+#paul {
+  font-size: 3em;
+}
