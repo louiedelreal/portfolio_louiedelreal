@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900');
 /*** KERNING & LEADING ASSIGNMENT STYLES ***/
 
 .rectangle {
@@ -46,9 +47,8 @@ text-align: center;
 line-height: 150%;
 }
 
-/*** HIERARCHY ASSIGNMENT STYLES ***/
-
-section {
+/** Hierarchy **/
+section{
   font-family: "Helvetica";
   font-size: 1em;
   background-color: white;
@@ -58,22 +58,42 @@ section {
   margin: 0 auto;
 }
 
-/* Do not change this style */
 section p {
-  font-size: 1.1em;
+  font-size: 1em;
   margin: 2em 4em;
-  max-width: 55%;
+  max-width: 50%;
 }
 
-/* Change this style */
-/* #biggerText {
+#target {
+  font-size: 2em;
+  line-height: 1;
+}
 
-} */
+.indent {
+  margin-left: 40%;
+}
 
-/* Change this style */
-/* .indent {
+#mainTitle{
+  margin-left: 20%;
+  margin-top: 10%;
+  font-size: 1.6em;
+  line-height: 1.2;
+}
 
-} */
+#name {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: black;
+}
+
+#dateTime{
+  margin-top: 8%;
+  margin-bottom: 15%;
+}
+
+.details {
+  font-size: 0.8em;
+}
 
 #title {
   font-size: 2em;
@@ -85,4 +105,30 @@ section p {
 
 #paul {
   font-size: 3em;
+}
+
+/**CONTRAST ASSIGNMENT**/
+.weights {
+  font-family: "Roboto";
+  font-size: 32px;
+}
+
+#weight1 {
+  font-weight: 200;
+}
+
+#weight2 {
+ font-weight:300;
+}
+
+#weight3 {
+ font-weight: 400;
+}
+
+#weight4 {
+  font-weight: 500;
+}
+
+#weight5 {
+  font-weight: 600;
 }
