@@ -132,3 +132,75 @@ section p {
 #weight5 {
   font-weight: 600;
 }
+
+/*
+  POSTER TYPOGRAPHY ASSIGNMENT CRITERIA:
+  * Use two different typefaces (a serif and a sans-serif)
+  * Use at least three different font-sizes
+  * Use a color that contrasts with the background image
+      * Recommended to use the text-shadow property to increase contrast
+  * Use a hierarchy that emphasizes the most important words
+      * Font size, font weight, logical grouping, orientation
+  */
+
+
+
+#grandCanyon {
+  background-image: url("../images/grand_canyon.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 800px;
+  margin: 0 auto;
+  font-size: 2em;
+}
+
+#gcTitle {
+  margin-left: 2%;
+  padding-top: 12%;
+  padding-bottom: 5%;
+  text-shadow: #fff, 2px;
+}
+#top1{
+  font-size: 1.50em;
+  font-family: Impact, sans-serif;
+  color: #BE4406;
+  text-shadow:
+}
+
+#top2{
+  font-size: 1.50em;
+  font-family: Impact, sans-serif;
+  color: #BE4406;
+}
+
+#middle1{
+  font-size: ;
+  margin-left: 2%;
+  font-family: "Arial";
+  font-weight: ;
+  color: #BE4406;
+}
+
+#middle2{
+  font-size: ;
+  margin-left: 2%;
+  font-family: "Arial";
+  font-weight: ;
+  color: #BE4406;
+}
+
+#middle3{
+  font-size: ;
+  margin-left: 2%;
+  font-family: "Arial";
+  font-weight: ;
+  color: #BE4406;
+}
+
+#bottom{
+  font-size: 20px;
+  font-family: "Arial";
+  margin-left: 60%;
+  color: #BE4406;
+}
