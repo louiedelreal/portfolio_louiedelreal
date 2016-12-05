@@ -158,8 +158,8 @@ section p {
 #gcTitle {
   margin-left: 2%;
   padding-top: 12%;
-  padding-bottom: 5%;
-  text-shadow: #fff, 2px;
+  padding-bottom: 4%;
+  text-shadow: 2px 2px #fff;
 }
 #top1{
   font-size: 1.50em;
@@ -175,32 +175,33 @@ section p {
 }
 
 #middle1{
-  font-size: ;
+  font-size: 30px;
   margin-left: 2%;
-  font-family: "Arial";
-  font-weight: ;
+  font-family: "Lucida";
   color: #BE4406;
+  text-shadow: 2px 2px #fff;
 }
 
 #middle2{
-  font-size: ;
+  font-size: 30px;
   margin-left: 2%;
-  font-family: "Arial";
-  font-weight: ;
+  font-family: "Lucida";
   color: #BE4406;
+  text-shadow: 2px 2px #fff;
 }
 
 #middle3{
-  font-size: ;
+  font-size: 30px;
   margin-left: 2%;
-  font-family: "Arial";
-  font-weight: ;
+  font-family: "Lucida";
   color: #BE4406;
+  text-shadow: 2px 2px #fff;
 }
 
 #bottom{
-  font-size: 20px;
+  font-size: 25px;
   font-family: "Arial";
-  margin-left: 60%;
+  margin-left: 57%;
+  margin-top: 1%;
   color: #BE4406;
 }
