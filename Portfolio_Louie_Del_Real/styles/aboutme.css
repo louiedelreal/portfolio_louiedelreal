@@ -1,1 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700|Oswald|Roboto');
 
+body{
+  background-color: #eee;
+  color: #444;
+  font-family: "Roboto";
+  font-size: 16px;
+  width: 80%;
+  margin: auto;
+  line-height: 1.5em;
+}
+
+h1{
+  font-family: "Oswald";
+  text-align: center;
+}
+
+h2{
+  font-family: "Merriweather";
+  text-align: center;
+  background-color: #0895DB;
+  color: #fff;
+  padding: 0%;
+  font-size: 1.3em;
+}
+
+#aboutmePhoto{
+  margin: auto;
+  border-radius: 10px;
+  max-width: 500px;
+  display: block;
+}
+
+a{
+  color: #e81c4f;
+}
